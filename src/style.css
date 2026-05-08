@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
+    touch-action: none;
+}
+
+canvas {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-family: Arial;
+    background: rgba(255,255,255,0.08);
+    padding: 12px 18px;
+    border-radius: 14px;
+    backdrop-filter: blur(12px);
+}
