@@ -5,7 +5,7 @@
   "type": "module",
 
   "engines": {
-    "node": ">=18"
+    "node": "18.x"
   },
 
   "scripts": {
@@ -15,10 +15,10 @@
   },
 
   "dependencies": {
-    "three": "^0.165.0",
+    "three": "^0.181.0",
     "cannon-es": "^0.20.0",
     "lil-gui": "^0.19.2",
-    "postprocessing": "^6.35.4"
+    "postprocessing": "^6.39.1"
   },
 
   "devDependencies": {
